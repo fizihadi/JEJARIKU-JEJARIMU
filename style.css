@@ -93,7 +93,7 @@
   .showcase {
     min-height: 400px;
     text-align: center;
-    background-image: url('/image/buku.jpeg');
+    background-image: url('image/buku.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
