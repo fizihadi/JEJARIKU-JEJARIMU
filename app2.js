@@ -65,7 +65,7 @@ let questions = [
   },
   {
     question: "Kesan PTM 1948?",
-    gambar: `image/Malayan3.jpg`,
+    gambar: `image/Malayan3.png`,
     choice1: "kedudukan Raja-raja Melayu diabaikan",
     choice2: "Hak istimewa Orang Melayu dihapuskan",
     choice3: "perpaduan kaum tidak dapat dibentuk",
