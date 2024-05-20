@@ -38,7 +38,7 @@ let questions = [
   },
   {
     question: "Jelaskan Majlis Perundangan Persekutuan 1948",
-    gambar: `image/MPP.jpg`,
+    gambar: `image/MPP.png`,
     choice1: "membenarkan Pesuruhjaya British mengambil alih pentadbiran",
     choice2: "membantu Pesuruhjaya Tinggi meluluskan undang-undang PTM 1948",
     choice3: "9 orang residen british mewakilu sebuah buah majlis negeri",
@@ -56,7 +56,7 @@ let questions = [
   },
   {
     question: "Manakah yang bukan ciri-ciri Malayan Union?",
-    gambar: `image/malayanUnion2.jpg`,
+    gambar: `image/malayanUnion2.png`,
     choice1: "menggabungkan NNMTB, NNMB dan NNS",
     choice2: "Raja Melayu hanya akan membincangkan tentang adat istiadat dan agama sahaja",
     choice3: "Raja menjadi ketua pentadbiran di setiap negeri",
