@@ -29,7 +29,7 @@ let availableQuestions = [];
 let questions = [
   {
     question: "apakah maksud bagi jari di atas",
-    gambar: `${BASE_URL}/image/soalan1.png`,
+    gambar: `image/soalan1.png`,
     choice1: "PTM MPP MPP",
     choice2: "GABENOR MAJLIS EKSEKUTIF DAN MAJLIS UNDANGAN",
     choice3: "1 KERAJAAN PERSEKUTUAN",
@@ -38,7 +38,7 @@ let questions = [
   },
   {
     question: "Jelaskan Majlis Perundangan Persekutuan 1948",
-    gambar: `${BASE_URL}/image/MPP.jpg`,
+    gambar: `image/MPP.jpg`,
     choice1: "membenarkan Pesuruhjaya British mengambil alih pentadbiran",
     choice2: "membantu Pesuruhjaya Tinggi meluluskan undang-undang PTM 1948",
     choice3: "9 orang residen british mewakilu sebuah buah majlis negeri",
@@ -47,7 +47,7 @@ let questions = [
   },
   {
     question: "APAKAH MAKSUD JEJARI INI?",
-    gambar: `${BASE_URL}/image/soalan2.png`,
+    gambar: `image/soalan2.png`,
     choice1: "1 Kerajaan Persekutuan",
     choice2: "NNMB + NNMTB + 2NS",
     choice3: "WARGANEGARA",
@@ -56,7 +56,7 @@ let questions = [
   },
   {
     question: "Manakah yang bukan ciri-ciri Malayan Union?",
-    gambar: `/image/malayanUnion2.jpg`,
+    gambar: `image/malayanUnion2.jpg`,
     choice1: "menggabungkan NNMTB, NNMB dan NNS",
     choice2: "Raja Melayu hanya akan membincangkan tentang adat istiadat dan agama sahaja",
     choice3: "Raja menjadi ketua pentadbiran di setiap negeri",
@@ -65,7 +65,7 @@ let questions = [
   },
   {
     question: "Kesan PTM 1948?",
-    gambar: `${BASE_URL}/image/Malayan3.jpg`,
+    gambar: `image/Malayan3.jpg`,
     choice1: "kedudukan Raja-raja Melayu diabaikan",
     choice2: "Hak istimewa Orang Melayu dihapuskan",
     choice3: "perpaduan kaum tidak dapat dibentuk",
