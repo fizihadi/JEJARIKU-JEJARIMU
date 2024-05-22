@@ -38,7 +38,7 @@ let questions = [
   },
   {
     question: "Jelaskan Majlis Perundangan Persekutuan 1948",
-    gambar: `image/MPP.jpg`,
+    gambar: `image/MPP.png`,
     choice1: "membenarkan Pesuruhjaya British mengambil alih pentadbiran",
     choice2: "membantu Pesuruhjaya Tinggi meluluskan undang-undang PTM 1948",
     choice3: "9 orang residen british mewakilu sebuah buah majlis negeri",
@@ -56,7 +56,7 @@ let questions = [
   },
   {
     question: "Manakah yang bukan ciri-ciri Malayan Union?",
-    gambar: `image/malayanUnion2.jpg`,
+    gambar: `image/malayanUnion2.ong`,
     choice1: "menggabungkan NNMTB, NNMB dan NNS",
     choice2: "Raja Melayu hanya akan membincangkan tentang adat istiadat dan agama sahaja",
     choice3: "Raja menjadi ketua pentadbiran di setiap negeri",
@@ -65,7 +65,7 @@ let questions = [
   },
   {
     question: "Kesan PTM 1948?",
-    gambar: `image/Malayan3.jpg`,
+    gambar: `image/Malayan3.png`,
     choice1: "kedudukan Raja-raja Melayu diabaikan",
     choice2: "Hak istimewa Orang Melayu dihapuskan",
     choice3: "perpaduan kaum tidak dapat dibentuk",
@@ -113,22 +113,23 @@ getNewQuestion = () => {
     gambar.src = ''
     const finalScoreMsg = document.getElementById('msg')
     if (score === 50){
-      finalScoreMsg.innerHTML = 'Hebat! Anda mendapat 50% dari soalan yang betul.'
+      finalScoreMsg.innerHTML = 'Hebat!.'
     }else if (score === 40) {
-      finalScoreMsg.innerHTML = "Mantap!"
+      finalScoreMsg.innerHTML = "Terbaik!"
     }else if (score === 30) {
-      finalScoreMsg.innerHTML = "kureng"
+      finalScoreMsg.innerHTML = "Kurang memuaskan"
     }else if (score === 20) {
-      finalScoreMsg.innerHTML = "bodoh!"
+      finalScoreMsg.innerHTML = "Cuba lagi"
     }else if (score === 10) {
-      finalScoreMsg.innerHTML = "mende sial kau!"
+      finalScoreMsg.innerHTML = "Asah lagi pengatahuan anda"
     }
     else {
-      finalScoreMsg.innerHTML = "kau bodoh!"
+      finalScoreMsg.innerHTML = "Kurang memberangsakan"
     }
     //Go to the end page
     return navigateTo("end");
   }
+  
   questionCounter++;
   questionCounterText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
   const questionIndex = Math.floor(Math.random() * availableQuestions.length);
