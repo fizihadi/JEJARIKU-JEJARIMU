@@ -56,7 +56,7 @@ let questions = [
   },
   {
     question: "Manakah yang bukan ciri-ciri Malayan Union?",
-    gambar: `image/malayanUnion2.ong`,
+    gambar: `image/malayanUnion2.png`,
     choice1: "menggabungkan NNMTB, NNMB dan NNS",
     choice2: "Raja Melayu hanya akan membincangkan tentang adat istiadat dan agama sahaja",
     choice3: "Raja menjadi ketua pentadbiran di setiap negeri",
