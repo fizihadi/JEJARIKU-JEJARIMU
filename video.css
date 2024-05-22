@@ -158,6 +158,49 @@ a {
   color: #565656;
 }
 
+@media(min-width: 768px) {
+  .head .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .container {
+    width: auto;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  .boxes .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    padding-bottom: 20px;
+  }
+
+  .about .container {
+    display: block;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .why {
+    padding-bottom: 20pxs;
+  }
+
+  .box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+}
+
 @media(max-width: 768px) {
   .head .container {
     display: flex;
