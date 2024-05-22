@@ -28,7 +28,7 @@ let availableQuestions = [];
 
 let questions = [
   {
-    question: "apakah maksud bagi jari di atas",
+    question: "Apakah maksud bagi jari di atas",
     gambar: `image/soalan1.png`,
     choice1: "PTM MPP MPP",
     choice2: "GABENOR MAJLIS EKSEKUTIF DAN MAJLIS UNDANGAN",
@@ -113,23 +113,22 @@ getNewQuestion = () => {
     gambar.src = ''
     const finalScoreMsg = document.getElementById('msg')
     if (score === 50){
-      finalScoreMsg.innerHTML = 'Hebat!.'
+      finalScoreMsg.innerHTML = 'Hebat!'
     }else if (score === 40) {
-      finalScoreMsg.innerHTML = "Terbaik!"
+      finalScoreMsg.innerHTML = "Terbaik! Teruskan Usaha"
     }else if (score === 30) {
-      finalScoreMsg.innerHTML = "Kurang memuaskan"
+      finalScoreMsg.innerHTML = "Cubaan yang baik"
     }else if (score === 20) {
-      finalScoreMsg.innerHTML = "Cuba lagi"
+      finalScoreMsg.innerHTML = "Kurang memuaskan"
     }else if (score === 10) {
-      finalScoreMsg.innerHTML = "Asah lagi pengatahuan anda"
+      finalScoreMsg.innerHTML = "Cuba lagi"
     }
     else {
-      finalScoreMsg.innerHTML = "Kurang memberangsakan"
+      finalScoreMsg.innerHTML = "Perlu penambahbaikan"
     }
     //Go to the end page
     return navigateTo("end");
   }
-  
   questionCounter++;
   questionCounterText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
   const questionIndex = Math.floor(Math.random() * availableQuestions.length);
